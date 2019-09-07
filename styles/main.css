@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	background-color: #F45353;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	padding: 0;
+	width: 100px;
+	height: 30px;
+	font-size: 1.3em;
+	border-radius: 20px;
+	border: 2px solid #F45353;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+section:nth-child(1) {
+	height: 100vh;
+}
+
+section:nth-child(2n) {
+	color: #0E0D0D;
+	background-color: #F9ECEC;
+}
+
+section:nth-child(2n+1) {
+	color: #FFFFFF;
+	background-color: #F45353;
+}
+
+section:nth-child(8) {
+	color: #FFFFFF;
+	background-color: #201F21;
+}
+
+.container {
+	padding: 20px 10px 30px 10px;
+}
+
+.heading {
+	font-size: 1.3em;
+	padding: 10px 0 20px 0;
+}
+
+.social {
+	width: 50px;
+	height: auto;
+}
+
+.online-school {
+	top: 30vh;
+	font-size: 1.1em;
+	position: relative;
+}
+
+.question ul {
+	text-align: left;
+	list-style-type: none;
+}
+
+.question li {
+	padding-top: 10px;
+}
+
+.block-course {
+	width: 70%;
+	margin: auto;
+	color: #0E0D0D;
+	padding: 20px 0;
+	border-radius: 10px;
+	background-color: #F9ECEC;
+}
+
+.block-course ul {
+	list-style-type: none;
+}
+
+.photo {
+	width: 150px;
+	height: auto;
+	margin: auto;
+	border-radius: 30px;
+	border: 2px solid #F45353;
+}
+
+.training {
+	margin: 50px 0;
+}
+
+.training img {
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+input {
+	width: 200px;
+	height: 20px;
+	margin: auto;
+	padding-top: 10px;
+}
